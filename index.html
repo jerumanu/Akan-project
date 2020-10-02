@@ -12,47 +12,51 @@
 
 <body>
 
-    <div class="container">
+    <div class="container" style="background-color: gray;">
         <div class="jumbotron" style="text-align: center;"> 
             <h1>Ghananian Akan Naming</h1>
             <p style="text-align: justify;"> Traditonal the <b> Akan people </b> of <b>Ghana </b> frequently name their children after the day of the week they were born.
              You can have at list one Ghananian  Akan name from this system when you can find  your Akan Name by filling  the form below</p>
 
         </div>
+        <div class="row">
+            <div class="col-md-6" sty>
         <div class="card  bg-primary" style="width: 25rem; height: 30rem; align-items: flex-start;">
-
+          
             <form class=""> 
                 <div class="form-group">
                     <div class="form-check form-check-input" >
                         <div class="form-check">
                             <label for="">century</label>
-                            <input class="form-control" type="number" id="century" value="CC">
+                            <input class="form-control" type="number" id="century" value="CC" min="1">
                         </div >
                         <div class="form-check">
                             <label for="">Year</label>
-                            <input class="form-control" type="number" id="year" value="YY" placeholder="Enter day" size="2">
+                            <input class="form-control" type="number" id="year" value="YY" placeholder="Enter day" size="2" min="1">
                         </div>
                         <div class="form-check">
                             <label for="">month</label>
-                            <input class="form-control" type="number" id="month" value="MM">
+                            <input class="form-control" type="number" id="month" value="MM" max="12" min="01">
                         </div>
                         
                             <div class="form-check">
                                 <label for=""> Day</label>
-                                <input class="form-control" type="number" id="day" value="DD">
+                                <input class="form-control" type="number" id="day" value="DD" max="31"  min="01">
                             </div>
                     <div class="form-group">
 
                         <label for="exampleFormControlSelect1">Gender</label>
-                        <select class="form-control" id="Gender" required>
+                        <select class="form-control" id="gender" required>
                             <option value=""></option>
                             <option value="Male">Male</option>
                             <option value="Female">Female</option>
                         </select>
-                        <button onclick="akan()" type="button" class="btn btn-success ">Submit</button>
+                      <button onclick="akan()" type="submit" class="btn btn-success ">Submit</button> 
                     </div>
-                 </div>
-                 </div>
+                </div>
+               </div>
+                </div>
+                </div>
                 </form>
 
 
