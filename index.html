@@ -20,7 +20,10 @@
 
         </div>
         <div class="row">
-            <div class="col-md-6" sty>
+            <div class="col-4">
+
+            </div>
+            <div class="col-6" >
         <div class="card  bg-primary" style="width: 25rem; height: 30rem; align-items: flex-start;">
           
             <form class=""> 
@@ -28,20 +31,20 @@
                     <div class="form-check form-check-input" >
                         <div class="form-check">
                             <label for="">century</label>
-                            <input class="form-control" type="number" id="century" value="CC" min="1">
+                            <input class="form-control" type="number" id="century" value="CC" placeholder="Eg 19" min="1" required>
                         </div >
                         <div class="form-check">
                             <label for="">Year</label>
-                            <input class="form-control" type="number" id="year" value="YY" placeholder="Enter day" size="2" min="1">
+                            <input class="form-control" type="number" id="year" value="YY" placeholder="Eg 99" size="2" min="1" required>
                         </div>
                         <div class="form-check">
                             <label for="">month</label>
-                            <input class="form-control" type="number" id="month" value="MM" max="12" min="01">
+                            <input class="form-control" type="number" id="month" value="MM" max="12" min="01" required>
                         </div>
                         
                             <div class="form-check">
                                 <label for=""> Day</label>
-                                <input class="form-control" type="number" id="day" value="DD" max="31"  min="01">
+                                <input class="form-control" type="number" id="day" value="DD" max="31"  min="01" required>
                             </div>
                     <div class="form-group">
 
@@ -50,7 +53,7 @@
                             <option value=""></option>
                             <option value="Male">Male</option>
                             <option value="Female">Female</option>
-                        </select>
+                        </select> <br>
                       <button onclick="akan()" type="submit" class="btn btn-success ">Submit</button> 
                     </div>
                 </div>
