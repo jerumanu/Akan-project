@@ -6,7 +6,7 @@ function akan() {
     var mm =parseInt(document.getElementById(year).value);
     var yy =parseInt(document.getElementById(month).value);
     var yy =parseInt(document.getElementById(day).value);
-    
+
     
     
 }
