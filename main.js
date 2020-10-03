@@ -11,20 +11,21 @@ function akan() {
     var d = parseInt(((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7
 
 
+    if (mm <= 0 || mm > 12) {
+        alert("please enter a valid month");
 
-    if (dd<=0 || dd >31) {
-        alert ("please enter a valid date");
-    }
-     if (mm<=0 || mm >12) {
-            alert ("please enter a valid month");
-        
-    } 
+    } else
+    if (dd < 1 || dd > 31) {
+        alert("please enter a valid date");
+    } else
+
     if (gender === "Male") {
         alert("Your Ghanian akan Name is " + akanMaleNames[d]);
 
-    } else {
+    } else 
+     if (gender === "Female") {
         alert("Your Ghanian akan Name is " + akanFemaleNames[d])
 
     }
-   
-    }
+
+}
