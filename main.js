@@ -12,15 +12,15 @@ function akan() {
 
 
     if (mm <= 0 || mm > 12) {
-        alert("please enter a valid month");
+        alert("please enter a valid month")
 
     } else
     if (dd < 1 || dd > 31) {
-        alert("please enter a valid date");
+        alert("please enter a valid date")
     } else
 
     if (gender === "Male") {
-        alert("Your Ghanian akan Name is " + akanMaleNames[d]);
+        alert("Your Ghanian akan Name is " + akanMaleNames[d])
 
     } else 
      if (gender === "Female") {
